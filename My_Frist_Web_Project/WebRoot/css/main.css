@@ -1,0 +1,63 @@
+
+
+body {
+    font-family: helvetica, sans-serif;
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(45, 45, 45);
+}
+
+a {
+    
+    text-decoration : none;
+    color: rgb(100, 100, 100);
+    
+}
+
+
+button {
+    color: rgb(170, 170, 170);
+    background: transparent; /*完全透明*/
+    opacity: 0.7;
+}
+
+#header {
+    background-image: url("../images/background/hx_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: center;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav_left {
+    line-height:28px;
+    font-size: 24px;
+    background-color:#eeeeee;
+    height:100%;
+    width:100px;
+    float:left;
+    opacity: 0.7;
+    padding:5px; 
+}
+
+#section {
+    width:350px;
+   	float:left;
+    padding:10px; 
+}
+
+#footer {
+	font-size: 16px;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    opacity: 0.7;
+    padding:5px; 
+}
+
